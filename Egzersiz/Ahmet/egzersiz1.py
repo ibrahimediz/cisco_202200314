@@ -12,6 +12,8 @@ class Polygon:
     def kenar(self):
         print(self.edge,"Kenarlar")
 
+    def anl
+
     @classmethod
     def familyaGetir(cls):
         print(cls.familya)
@@ -21,7 +23,7 @@ class Polygon:
         print("Silinen Çokgen =>",self.adi)
 
 poly1 = triangle(adi="Üçgen",edge="üç",angle=[45,45,90])
-poly2 = square("Kare","dört",["]90,90,90,90")
+poly2 = square("Kare","dört",[90,90,90,90])
 poly1.adiNe()
 poly2.adiNe()
 

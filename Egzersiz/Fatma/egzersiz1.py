@@ -12,9 +12,7 @@ class cokgen:
     def kenarSayisi(self):
         print(self.kenarsayisi,"kenarsayisi")
 
-    @classmethod
-    def familyaGetir(cls):
-        print(cls.familya)
+   ucgen=
 
 
     def __del__(self): # desctructor  # nesne silindiğinde ya da program çalışmayı durdurduğunda çalışır

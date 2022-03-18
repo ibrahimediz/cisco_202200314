@@ -3,7 +3,7 @@ print("Merhaba")
 sınıf içerisinde 3 adet instance attribute olsun kenar sayısı ve açı listesi
 """
 class Cokgen:
-    def __init__(kenarSayisi ,  cokgenAdi , aciListesi):
+    def __init__(self,kenarSayisi,cokgenAdi,aciListesi):
         self.kenarSayisi = kenarSayisi
         self.cokgenAdi = cokgenAdi
         self.aciListesi = aciListesi
@@ -19,8 +19,8 @@ class Cokgen:
 
 
 
-cokgen1 = ucgen("Üçgen","üç","45,45,90")
-cokgen2 = dortgen("Kare","dört","90,90,90,90")
+cokgen1 = Cokgen("Üçgen","üç","45,45,90")
+cokgen2 = Cokgen("Kare","dört","90,90,90,90")
 cokgen1.cokgenAdi()
-cokgen2.cokgenAdi()
+cokgen2.cokgenadi()
 

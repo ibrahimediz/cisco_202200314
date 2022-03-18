@@ -10,19 +10,10 @@ class cokgen:
         print("Kenar Sayisi",self.kenarsayisi)
 
 
-    @classmethod
-    def cokgenGetir(cls):
-        print(cls.geometri)
-
-    def __del__(self): # desctructor  # nesne silindiğinde ya da program çalışmayı durdurduğunda çalışır
-        print("R.I.P =>",self.adi)
-
 ucgen = cokgen("3","dikucgen","ikizkenarucgen")
 kare = cokgen("4","dörtgen",)
 
-cokgenAdiSoyle()
+ucgen.cokgenAdiSoyle()
+ucgen.cokgenAdiSoyle()
 ucgen.kenarsayisi()
 kare.kenarsayisi()
-
-ucgen.cokgenGetir()
-kare.cokgenGetir()

@@ -38,7 +38,7 @@ class Cokgen:
     def aciListesi(self):
         print(("aciListesi", self.aciListesi))
 
-Cokgen = 
+ucgen = Cokgen(3, "üçgen", acilistesi)
 
     
 
