@@ -1,6 +1,29 @@
-class cokgen:
+"""
+class
+instance
+"""
+"""
+attribute
+method
+"""
+######################### ilk tanım ###########################
+# class Sinif: #class
+#     pass 
+# Sinif() # instance
+
+
+# class Sinif:
+#     sinifOzelligi = "Sınıf Özelliği" # class attribute
+#     def __init__(self,a):
+#         self.a = a # instance attribute
     
-    def __init__(kenar sayısi,di,goz,tuy,cins):   # contructor Yapıcı Fonksiyon
+#     def ornekMethod(self): # instance method
+#         return self.a 
+
+
+class Cokgen:
+    #familya = "Felis"
+    def __init__(self,kenarsayisi,adi, ):   # contructor Yapıcı Fonksiyon
         self.adi = adi
         self.goz = goz
         self.tuy = tuy
