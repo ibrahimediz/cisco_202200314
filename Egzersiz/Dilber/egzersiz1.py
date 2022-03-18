@@ -13,26 +13,28 @@ class Cokgenler:
         #self.yas = 1 
 
     def adiNe(self):
-        print("Kedinin Adı",self.adi)
+        print("Çokgenin Adı",self.sekiladi)
 
-    def beslenme(self):
-        print(self.adi,"Beslendi")
+    def sekiladi(self):
+        print(self.kosesayisi,"Şeklin Köşe Sayısı")
 
     @classmethod
-    def familyaGetir(cls):
-        print(cls.familya)
+    def tumSekiller(cls):
+        print(cls.Sekil)
 
 
     def __del__(self): # desctructor  # nesne silindiğinde ya da program çalışmayı durdurduğunda çalışır
-        print("R.I.P =>",self.adi)
+        print("R.I.P =>",self.sekiladi)
 
-kedi1 = Kedi(adi="Melek",goz="Yeşil",tuy="Kısa",cins="Tekir")
-kedi2 = Kedi("Miskin","Mavi","Uzun","Scottish")
-kedi1.adiNe()
-kedi2.adiNe()
+ucgen = Üçgen(kenarsayisi="3",kosesayisi="3",sekiladi="Üçgen", icacisi="60")
+kare = Kare(kenarsayisi="4",kosesayisi="4",sekiladi="Kare", icacisi="90")
+besgen = Beşgen(kenarsayisi="5",kosesayisi="5",sekiladi="Beşgen", icacisi="120")
+ucgen.adiNe()
+kare.adiNe()
+besgen.adiNe()
 
-kedi1.beslenme()
-kedi2.beslenme()
+ucgen.kenarsayisi()
+kare.kenarsayisi()
 
 kedi1.yas +=1
 print(kedi1.yas)

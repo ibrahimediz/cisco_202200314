@@ -1,17 +1,16 @@
 class cokgen:
     
-    def __init__(kenar sayısi,di,goz,tuy,cins):   # contructor Yapıcı Fonksiyon
-        self.adi = adi
-        self.goz = goz
-        self.tuy = tuy
-        self.cins = cins
-        self.yas = 1 
+    def __init__(kenarsayisi,cokgenadi,aciliste):   # contructor Yapıcı Fonksiyon
+        self.kenarsayisi = kenarsayisi
+        self.cokgenadi = cokgenadi
+        self.aciliste = aciliste
+        #self.yas = 1 
 
-    def adiNe(self):
-        print("Kedinin Adı",self.adi)
+    def cokgenadiSoyle(self):
+        print("cokgenadi",self.cokgenadi)
 
-    def beslenme(self):
-        print(self.adi,"Beslendi")
+    def kenarSayisi(self):
+        print(self.kenarsayisi,"kenarsayisi")
 
     @classmethod
     def familyaGetir(cls):

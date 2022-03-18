@@ -1,16 +1,16 @@
-class Kedi:
+class Polygon:
     familya = "Çokgen"
-    def __init__(self,adi,goz,tuy,cins):   # contructor Yapıcı Fonksiyon
-        self.adi = adi
+    def __init__(self,name,edge,angle):   # contructor Yapıcı Fonksiyon
+        self.name = name
         self.edge = edge
         self.angle = angle
         
 
     def adiNe(self):
-        print("Çokgeninin Adı",self.adi)
+        print("Çokgeninin Adı",self.name)
 
-    def beslenme(self):
-        print(self.adi,"Beslendi")
+    def kenar(self):
+        print(self.edge,"Kenarlar")
 
     @classmethod
     def familyaGetir(cls):
@@ -18,25 +18,14 @@ class Kedi:
 
 
     def __del__(self): # desctructor  # nesne silindiğinde ya da program çalışmayı durdurduğunda çalışır
-        print("R.I.P =>",self.adi)
+        print("Silinen Çokgen =>",self.adi)
 
-kedi1 = Kedi(adi="Melek",goz="Yeşil",tuy="Kısa",cins="Tekir")
-kedi2 = Kedi("Miskin","Mavi","Uzun","Scottish")
-kedi1.adiNe()
-kedi2.adiNe()
+poly1 = triangle(adi="Üçgen",edge="üç",angle=[45,45,90])
+poly2 = square("Kare","dört",["]90,90,90,90")
+poly1.adiNe()
+poly2.adiNe()
 
-kedi1.beslenme()
-kedi2.beslenme()
+poly1.Kenarlar()
+poly2.Kenarlar()
 
-kedi1.yas +=1
-print(kedi1.yas)
-print(kedi2.yas)
 
-print(Kedi.familya)
-kedi1.familya = "Jamiryo" # kedi1 için bir instance attribute üretildi class attribute e erişilemez
-print(kedi1.familya)
-print(kedi2.familya)
-
-Kedi.familyaGetir()
-kedi1.familyaGetir()
-kedi2.familyaGetir()

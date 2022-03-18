@@ -1,11 +1,15 @@
-class cokgenler:
-   sinifOzelligi="Sınıf Özelliği"
-   def __init__(self,a):
-       self.a = a
+class Cokgen:
+    def __init__(self,kenarsayisi,adi,acilistesi):   
+        self.kenarsayisi = kenarsayisi
+        self.adi = adi
+        self.acilistesi = acilistesi       
+    def kenarsayisi(self):
+        print("kenarsayisi",self.kenarsayisi)
 
-   def ornekMethod(self):
-       return self.a
+    def adiNe(self):
+        print("adi",self.adi)
 
-    @classmethod
-       def sinifMethod(cls):
-          return sinifOzelligi
+    def acilistesi(self):
+        print(self.acilistesi,"acilistesi")
+    
+  
