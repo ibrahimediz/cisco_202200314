@@ -1,6 +1,33 @@
-class Cokgen:
-    Sekiller = "cokgenler"
-    def __init__(self,kenar,kose,tuy,cins):   # contructor Yapıcı Fonksiyon
+"""
+class
+instance
+"""
+"""
+attribute
+method
+"""
+######################### ilk tanım ###########################
+# class Sinif: #class
+#     pass 
+# Sinif() # instance
+
+
+# class Sinif:
+#     sinifOzelligi = "Sınıf Özelliği" # class attribute
+#     def __init__(self,a):
+#         self.a = a # instance attribute
+    
+#     def ornekMethod(self): # instance method
+#         return self.a 
+
+#     @classmethod
+#     def sinifMetod(cls): # class method
+#         return cls.sinifOzelligi
+##############################################################
+
+class Kedi:
+    familya = "Felis"
+    def __init__(self,adi,goz,tuy,cins):   # contructor Yapıcı Fonksiyon
         self.adi = adi
         self.goz = goz
         self.tuy = tuy

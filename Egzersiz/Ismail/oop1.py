@@ -1,2 +1,0 @@
-merhaba
-print("merhaba")

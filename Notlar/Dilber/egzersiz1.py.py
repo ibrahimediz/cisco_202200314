@@ -1,6 +1,6 @@
-class Cokgen:
+class Cokgenler:
     Sekiller = "cokgenler"
-    def __init__(self,kenar,kose,tuy,cins):   # contructor Yapıcı Fonksiyon
+    def __init__(self,adi,goz,tuy,cins):   # contructor Yapıcı Fonksiyon
         self.adi = adi
         self.goz = goz
         self.tuy = tuy
