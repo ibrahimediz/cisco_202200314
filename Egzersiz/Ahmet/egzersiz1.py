@@ -12,7 +12,8 @@ class Polygon:
     def kenar(self):
         print(self.edge,"Kenarlar")
 
-    def anl
+    def angle(self):
+        print(self.angle,"Açılar")
 
     @classmethod
     def familyaGetir(cls):

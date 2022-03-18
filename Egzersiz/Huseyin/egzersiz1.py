@@ -7,5 +7,11 @@ class Cokgen:
         print("Çokgenin Adı",self.cokgenadi)
         print(self.kenarsayisi,"Kenar sayısı")
 
+ucgen = cokgen("3","dikucgen","ikizkenarucgen")
+kare = cokgen("4","dörtgen",)
+
+ucgen.cokgenAdiSoyle()
+ucgen.cokgenAdiSoyle()
 ucgen.kenarsayisi()
+kare.kenarsayisi()
 
