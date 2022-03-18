@@ -1,0 +1,2 @@
+merhaba
+print("merhaba")
