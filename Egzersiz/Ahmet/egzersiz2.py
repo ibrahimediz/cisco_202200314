@@ -15,6 +15,11 @@ class Polygon:
     def setAccess(self,obj):
         self.access= obj.position
 
+    @property
+    def id(self):
+        if self.erisim == "M":
+            return "Personal ID"
+
 
 
 
