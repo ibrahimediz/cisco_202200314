@@ -32,7 +32,8 @@ class Kedi:
         self.goz = goz
         self.tuy = tuy
         self.cins = cins
-        self.yas = 1 
+        self.yas = 1
+        self.adiNe()
 
     def adiNe(self):
         print("Kedinin Adı",self.adi)
@@ -68,3 +69,12 @@ print(kedi2.familya)
 Kedi.familyaGetir()
 kedi1.familyaGetir()
 kedi2.familyaGetir()
+
+
+
+"""
+Encapsulation # Kapsülleme
+Inheritance   # Kalıtım
+Polymorphim   # Çok Biçimlilik
+Abstraction   # Soyutlama
+"""
