@@ -1,6 +1,7 @@
 import time
 import random
-class MarvelHero:
+from AbstractionSample import Hero
+class MarvelHero(Hero):
     def __init__(self,name,power,health):
         self.name = name
         self.power = power
