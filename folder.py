@@ -1,7 +1,7 @@
-liste = ["Ahmet","Dilber","Erdal","Fatma","Filiz","Yahya","Huseyin","Ismail","Nida","Orhan","Rabia","Sevgi","Yakup"]
+liste = ["Ahmet","Dilber","Erdal","Fatma","Filiz","Yahya","Huseyin","Ismail","Nida","Orhan","Rabia","Sevgi","Yakup","AliImran"]
 
-folder="Egzersiz"
-filename = "egzersiz1"
+folder="Notlar"
+filename = "InheritanceSample1.py"
 import os 
 for item in liste:
     if not os.path.exists(f"{folder}"):
